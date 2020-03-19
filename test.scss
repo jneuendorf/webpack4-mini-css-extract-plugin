@@ -1,0 +1,27 @@
+.profile-section .panel {
+    float: left;
+    display: block;
+
+    &:after {
+        clear: both;
+    }
+
+    &.panel--side {
+        width: 25%;
+        margin-top: 0;
+    }
+    &.panel--table {
+        width: calc(75% - 10px);
+        margin-left: 10px;
+        margin-bottom: 100px;
+
+        .container {
+            width: auto;
+        }
+    }
+}
+
+.draft {
+    color: #aaa;
+    margin-left: 9px;
+}
